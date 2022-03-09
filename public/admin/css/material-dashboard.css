@@ -2705,12 +2705,11 @@
     color: #495057;
     background-color: transparent;
     background-clip: padding-box;
-    border: 1px solid #d2d6da;
+    border-bottom: 2px solid #cccecf!important;
     appearance: none;
     border-radius: 0.375rem;
     transition: 0.2s ease;
-  }
-  
+   }
   @media (prefers-reduced-motion: reduce) {
     .form-control {
       transition: none;
@@ -2730,6 +2729,7 @@
     background-color: transparent;
     border-color: transparent;
     outline: 0;
+    border-bottom: 2px solid rgb(228 49 112)!important;
     box-shadow: none;
   }
   
